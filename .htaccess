@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # renamed to _api.php for compatibility with mod_speling
+  RewriteRule ^api\.?(.*)?$ _api.php?format=$1
+</IfModule>
