@@ -20,7 +20,9 @@
                                 "I'VE BEEN INVITED TO SHOWS AND AS USUAL ASKED NOT TO COME...",
                                 // "(SIGH) UURBAAAN (SIGH)",
                                 "I ACTUALLY HAVE BEEN WORKING ON MY EGO THOUGH.",
-                                "IT'S COOL TO TALK SHIT WHEN YOU'RE RAPPING BUT NOT IN REAL LIFE."
+                                "IT'S COOL TO TALK SHIT WHEN YOU'RE RAPPING BUT NOT IN REAL LIFE.",
+"HEY TWITTER, TAKE THE SO CALLED KANYE WEST TWITTER DOWN NOW... WHY?... BECAUSE MY CAPS LOCK KEY IS LOUD!!!!!!!!!",
+"EVERYTHING THAT TWITTER OFFERS I NEED LESS OF."
 
 
                         );
