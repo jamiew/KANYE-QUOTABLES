@@ -3,7 +3,8 @@
 <html>
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<title>Quotable Kanye :: Yeezy Wisdom 24/7</title>
+	<title>Quotable Kanye :: Yeezy Wisdom 24/7 :: jamiedubs.com</title>
+  <link rel="shortcut icon" href="favicon.jpg">
 </head>
 <body id="index" onload="">
 
@@ -36,7 +37,7 @@
 
 	<div id="header">
 		<h1><a href="/">QUOTABLE KANYE</a></h1>
-		SELECTIONS FROM KANYE'S BLOG & TWITTER<br />
+		SELECTIONS FROM KANYE'S BLOG+TWITTER<br />
 		REFRESH FOR ADDITIONAL YEEZY WISDOM<br />
 		<a href="http://fffff.at/quotable-kanye/">MORE INFO HERE</a> (INCLUDING API)
 	</div>
