@@ -36,7 +36,7 @@
 
 	<div id="header">
 		<h1><a href="/">QUOTABLE KANYE</a></h1>
-		ALLCAPS GOODNESS FROM KANYE'S BLOG<br />
+		SELECTIONS FROM KANYE'S BLOG & TWITTER<br />
 		REFRESH FOR ADDITIONAL YEEZY WISDOM<br />
 		<a href="http://fffff.at/quotable-kanye/">MORE INFO HERE</a> (INCLUDING API)
 	</div>
