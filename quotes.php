@@ -14,7 +14,7 @@
 "YOU OBVIOUSLY DON'T KNOW WHO YOU'RE UP AGAINST" => "http://www.kanyeuniversecity.com/blog/2009/01/30/",
 "I'VE BEEN LOVED AND HATED... I'VE BEEN HAILED AND RIDICULED..." => "http://www.kanyeuniversecity.com/blog/2009/01/30/",
 "I WILL NEVER ATTACK NEGATIVE PEOPLE AND THEIR ENERGY..." => "http://www.kanyeuniversecity.com/blog/2009/01/30/",
-"IT IS THE CRACK IN THE WALL THAT ALLOWS LIGHT TO SHINE THROUGH... SOOO THANK YOU SENSATIONAL NEWS REPORTERS..." => "http://www.kanyeuniversecity.com/blog/2009/01/30/",
+"IT IS THE CRACK IN THE WALL THAT ALLOWS LIGHT TO SHINE THROUGH..." => "http://www.kanyeuniversecity.com/blog/2009/01/30/",
 "THANK YOU BARBER SHOPS... THANK YOU TO ANYONE WHO THRIVES ON THE DOWNFALL OF OTHERS FOR I WILL NOT FALL!!!" => "http://www.kanyeuniversecity.com/blog/2009/01/30/",
 "YOU FEEL MISERY IS THE ONLY COMPANY... AND I AM HERE TO PROVE YOU ALL WRONG..." => "http://www.kanyeuniversecity.com/blog/2009/01/30/",
 "I AM A SOLDIER OF FREE THOUGHT IN A CLOSED MINDED WORLD AND I AM READY FOR WAR… " => "http://www.kanyeuniversecity.com/blog/2009/01/30/",
