@@ -5,6 +5,14 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<title>Quotable Kanye :: Yeezy Wisdom 24/7 :: jamiedubs.com</title>
   <link rel="shortcut icon" href="favicon.jpg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96220-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-96220-1');
+  </script>
 </head>
 <body id="index" onload="">
 
@@ -82,16 +90,5 @@
   </div>
 
 </div>
-
-<!-- stats -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-96220-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
 
 </body>
