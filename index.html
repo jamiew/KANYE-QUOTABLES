@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Quotable Kanye :: Yeezy Wisdom 24/7 :: jamiedubs.com</title>
+  <link rel="shortcut icon" href="favicon.jpg">
+  <style>
+    body { font-family: sans-serif; }
+    a { color: #999; }
+    a:hover { color: #808080; }
+    a img { border: 0; }
+    #header h1 { margin: 20px 0 10px 0px; padding: 0; }
+    #header h1 a { background-color: #dadada; color: white; text-transform: uppercase; text-decoration: none; padding: 10px 10px 5px 10px; }
+    #header h1 a:hover { background-color: #d0d0d0; color: #f9f9f9; }
+    #header { color: #888; font-size: 8pt; text-transform: uppercase; }
+    #footer { clear: both; margin-top: 520px; text-align: right; margin-right: 100px; color: #bbb; font-size: 9pt; }
+    #footer a { color: #bbb; }
+    #footer a:hover { color: #999; }
+    #footer img { float: right; margin-left: 20px; }
+    #quote { position: absolute; left: 90px; width: 600px; margin-top: 50px; background: url(images/frame2-550.png) no-repeat; color: #9f9f9f; padding: 20px; }
+    #quote blockquote { width: 400px; height: 350px; overflow: hidden; font-size: 24pt; padding: 70px 70px 50px 60px; margin: 0 0px; }
+    #quote cite a { display: block; text-align: left; margin-top: 20px; text-decoration: none; color: #dadada; font-size: 10pt; font-family: serif; }
+    #quote cite a:hover { color: #faa; }
+    #kanye { position: absolute; left: 695px; margin-top: 65px; z-index: 100; border: 4px solid #fafafa; }
+  </style>
+</head>
+<body>
+
+<div id="header">
+  <h1><a href="/">QUOTABLE KANYE</a></h1>
+  SELECTIONS FROM KANYE'S BLOG+TWITTER<br>
+  REFRESH FOR ADDITIONAL YEEZY WISDOM<br>
+  <a href="http://fffff.at/quotable-kanye/">MORE INFO HERE</a> (INCLUDING API)
+</div>
+
+<div id="kanye">
+  <a href="/"><img src="images/kanye.jpg" alt="Kanye"></a>
+</div>
+
+<div id="quote">
+  <h2>
+    <blockquote id="quote-text"></blockquote>
+  </h2>
+</div>
+
+<div id="footer">
+  <a href="http://fffff.at"><img src="http://fffff.at/images/copyleft_drips_sm.jpg" height="100" alt=""></a>
+  <br>
+  Made by <a href="http://jamiedubs.com">Jamie Wilkinson</a> and <a href="http://irenepolnyi.com">Irene Polnyi</a><br>
+  Download the <a href="http://github.com/jamiew/kanye-quotables">source code</a> &mdash; <strong><a href="http://fffff.at">F.A.T. Lab</a></strong><br>
+</div>
+
+<script>
+var quotes = [
+  { text: "I am sick of negative people who just sit around trying 2 plot my downfall... Why????", url: "http://www.kanyeuniversecity.com/blog/2008/06/untitled-2/" },
+  { text: "HAS ANYONE EVEN TAKEN THE TIME TO AT LEAST DO THE MATH???", url: "http://www.kanyeuniversecity.com/blog/2008/06/untitled-2/" },
+  { text: "AT THAT POINT WE'RE RACING AGAINST THE SUN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", url: "http://www.kanyeuniversecity.com/blog/2008/06/untitled-2/" },
+  { text: "CALL ME WHAT YOU WANT BUT NEVER SAY I DIDN'T GIVE MY ALL!!!", url: "http://www.kanyeuniversecity.com/blog/2008/06/untitled-2/" },
+  { text: "ALL I CARE ABOUT ARE THE FANS.", url: "http://www.kanyeuniversecity.com/blog/2008/06/untitled-2/" },
+  { text: "I'm typing so fucking hard I might break my fucking Mac book Air!!!!!!!!", url: "" },
+  { text: "I'VE BEEN ATTACKED FOR BEING ME... FOR BEING BRIGHT RED IN A GREY WORLD.", url: "" },
+  { text: "I AM NUCLEAR ENERGY", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "YOUR PESSIMISM IS MY POWER... YOUR PRESUMPTIONS LEAD TO MY REDEMPTIONS...", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "YOU OBVIOUSLY DON'T KNOW WHO YOU'RE UP AGAINST", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "I'VE BEEN LOVED AND HATED... I'VE BEEN HAILED AND RIDICULED...", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "I WILL NEVER ATTACK NEGATIVE PEOPLE AND THEIR ENERGY...", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "IT IS THE CRACK IN THE WALL THAT ALLOWS LIGHT TO SHINE THROUGH...", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "THANK YOU BARBER SHOPS... THANK YOU TO ANYONE WHO THRIVES ON THE DOWNFALL OF OTHERS FOR I WILL NOT FALL!!!", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "YOU FEEL MISERY IS THE ONLY COMPANY... AND I AM HERE TO PROVE YOU ALL WRONG...", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "I AM A SOLDIER OF FREE THOUGHT IN A CLOSED MINDED WORLD AND I AM READY FOR WAR…", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "I'VE BEEN INVITED TO SHOWS AND AS USUAL ASKED NOT TO COME...", url: "http://www.kanyeuniversecity.com/blog/2009/01/30/" },
+  { text: "I ACTUALLY HAVE BEEN WORKING ON MY EGO THOUGH.", url: "http://www.kanyeuniversecity.com/blog/2009/04/4370/" },
+  { text: "I'M SURE THERE'S GRAMMATICAL ERRORS IN THIS… THAT'S HOW YOU KNOW IT'S ME!", url: "http://www.kanyeuniversecity.com/blog/2009/04/4370/" },
+  { text: "IT'S COOL TO TALK SHIT WHEN YOU'RE RAPPING BUT NOT IN REAL LIFE.", url: "http://www.kanyeuniversecity.com/blog/2009/04/4370/" },
+  { text: "HEY TWITTER, TAKE THE SO CALLED KANYE WEST TWITTER DOWN NOW... WHY?... BECAUSE MY CAPS LOCK KEY IS LOUD!!!!!!!!!", url: "http://www.kanyeuniversecity.com/blog/2009/05/4901/" },
+  { text: "EVERYTHING THAT TWITTER OFFERS I NEED LESS OF.", url: "http://www.kanyeuniversecity.com/blog/2009/05/4901/" },
+  { text: "I ordered the salmon medium instead of medium well I didn't want to ruin the magic", url: "http://twitter.com/kanyewest/status/19854009662" },
+  { text: "Up early in the morning taking meetings in Silicone Valley", url: "http://twitter.com/kanyewest/status/19752583676" },
+  { text: "Classical music is tight yo", url: "http://twitter.com/kanyewest/status/19835937717" },
+  { text: "keep fresh flowers in the crib", url: "http://twitter.com/kanyewest/status/19837801525" },
+  { text: "I need this horse... Kings need horses", url: "http://twitpic.com/29suqi" }
+];
+
+var quote = quotes[Math.floor(Math.random() * quotes.length)];
+var html = quote.text;
+if (quote.url) {
+  html += '<cite><a href="' + quote.url + '">link</a></cite>';
+}
+document.getElementById('quote-text').innerHTML = html;
+</script>
+
+</body>
+</html>
