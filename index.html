@@ -22,19 +22,21 @@
     #quote {
       flex: 1 1 400px;
       min-width: 280px;
-      max-width: 600px;
-      background: #f5f5f5;
-      border: 3px solid #dadada;
-      color: #666;
-      padding: 30px;
+      max-width: 550px;
+      background: url(images/frame2-550.png) no-repeat;
+      background-size: 100% 100%;
+      color: #9f9f9f;
+      padding: 20px;
     }
     #quote blockquote {
-      font-size: clamp(18px, 4vw, 28px);
+      font-size: clamp(16px, 3.5vw, 24px);
       margin: 0;
       line-height: 1.4;
+      padding: 60px 50px 40px 50px;
+      min-height: 280px;
     }
-    #quote cite a { display: block; margin-top: 20px; text-decoration: none; color: #bbb; font-size: 10pt; font-family: serif; }
-    #quote cite a:hover { color: #f88; }
+    #quote cite a { display: block; margin-top: 20px; text-decoration: none; color: #dadada; font-size: 10pt; font-family: serif; }
+    #quote cite a:hover { color: #faa; }
 
     #kanye {
       flex: 0 0 auto;
@@ -53,7 +55,8 @@
       .content { flex-direction: column-reverse; }
       #kanye { align-self: center; }
       #kanye img { max-width: 150px; }
-      #quote { padding: 20px; }
+      #quote { min-width: 260px; }
+      #quote blockquote { padding: 50px 40px 30px 40px; min-height: 220px; }
       #footer { text-align: left; }
       #footer img { float: none; margin: 10px 0; }
     }
