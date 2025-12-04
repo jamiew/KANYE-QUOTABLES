@@ -2,26 +2,61 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Quotable Kanye :: Yeezy Wisdom 24/7 :: jamiedubs.com</title>
   <link rel="shortcut icon" href="favicon.jpg">
   <style>
-    body { font-family: sans-serif; }
+    * { box-sizing: border-box; }
+    body { font-family: sans-serif; margin: 0; padding: 20px; }
     a { color: #999; }
     a:hover { color: #808080; }
     a img { border: 0; }
-    #header h1 { margin: 20px 0 10px 0px; padding: 0; }
-    #header h1 a { background-color: #dadada; color: white; text-transform: uppercase; text-decoration: none; padding: 10px 10px 5px 10px; }
+
+    #header { color: #888; font-size: 8pt; text-transform: uppercase; margin-bottom: 20px; }
+    #header h1 { margin: 0 0 10px 0; padding: 0; }
+    #header h1 a { background-color: #dadada; color: white; text-transform: uppercase; text-decoration: none; padding: 10px 10px 5px 10px; display: inline-block; }
     #header h1 a:hover { background-color: #d0d0d0; color: #f9f9f9; }
-    #header { color: #888; font-size: 8pt; text-transform: uppercase; }
-    #footer { clear: both; margin-top: 520px; text-align: right; margin-right: 100px; color: #bbb; font-size: 9pt; }
+
+    .content { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; }
+
+    #quote {
+      flex: 1 1 400px;
+      min-width: 280px;
+      max-width: 600px;
+      background: #f5f5f5;
+      border: 3px solid #dadada;
+      color: #666;
+      padding: 30px;
+    }
+    #quote blockquote {
+      font-size: clamp(18px, 4vw, 28px);
+      margin: 0;
+      line-height: 1.4;
+    }
+    #quote cite a { display: block; margin-top: 20px; text-decoration: none; color: #bbb; font-size: 10pt; font-family: serif; }
+    #quote cite a:hover { color: #f88; }
+
+    #kanye {
+      flex: 0 0 auto;
+      border: 4px solid #eee;
+      max-width: 100%;
+      height: auto;
+    }
+    #kanye img { display: block; max-width: 200px; width: 100%; height: auto; }
+
+    #footer { margin-top: 40px; text-align: right; color: #bbb; font-size: 9pt; }
     #footer a { color: #bbb; }
     #footer a:hover { color: #999; }
-    #footer img { float: right; margin-left: 20px; }
-    #quote { position: absolute; left: 90px; width: 600px; margin-top: 50px; background: url(images/frame2-550.png) no-repeat; color: #9f9f9f; padding: 20px; }
-    #quote blockquote { width: 400px; height: 350px; overflow: hidden; font-size: 24pt; padding: 70px 70px 50px 60px; margin: 0 0px; }
-    #quote cite a { display: block; text-align: left; margin-top: 20px; text-decoration: none; color: #dadada; font-size: 10pt; font-family: serif; }
-    #quote cite a:hover { color: #faa; }
-    #kanye { position: absolute; left: 695px; margin-top: 65px; z-index: 100; border: 4px solid #fafafa; }
+    #footer img { float: right; margin-left: 20px; max-width: 80px; height: auto; }
+
+    @media (max-width: 600px) {
+      .content { flex-direction: column-reverse; }
+      #kanye { align-self: center; }
+      #kanye img { max-width: 150px; }
+      #quote { padding: 20px; }
+      #footer { text-align: left; }
+      #footer img { float: none; margin: 10px 0; }
+    }
   </style>
 </head>
 <body>
@@ -33,21 +68,20 @@
   <a href="http://fffff.at/quotable-kanye/">MORE INFO HERE</a> (INCLUDING API)
 </div>
 
-<div id="kanye">
-  <a href="/"><img src="images/kanye.jpg" alt="Kanye"></a>
-</div>
-
-<div id="quote">
-  <h2>
+<div class="content">
+  <div id="quote">
     <blockquote id="quote-text"></blockquote>
-  </h2>
+  </div>
+
+  <div id="kanye">
+    <a href="/"><img src="images/kanye.jpg" alt="Kanye"></a>
+  </div>
 </div>
 
 <div id="footer">
-  <a href="http://fffff.at"><img src="http://fffff.at/images/copyleft_drips_sm.jpg" height="100" alt=""></a>
-  <br>
+  <a href="http://fffff.at"><img src="http://fffff.at/images/copyleft_drips_sm.jpg" alt="F.A.T. Lab"></a>
   Made by <a href="http://jamiedubs.com">Jamie Wilkinson</a> and <a href="http://irenepolnyi.com">Irene Polnyi</a><br>
-  Download the <a href="http://github.com/jamiew/kanye-quotables">source code</a> &mdash; <strong><a href="http://fffff.at">F.A.T. Lab</a></strong><br>
+  Download the <a href="http://github.com/jamiew/kanye-quotables">source code</a> &mdash; <strong><a href="http://fffff.at">F.A.T. Lab</a></strong>
 </div>
 
 <script>
